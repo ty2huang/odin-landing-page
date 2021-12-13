@@ -1,0 +1,178 @@
+body {
+}
+
+.section {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.dark-blue {
+    background-color: #1F2937;
+}
+
+.container {
+    max-width: 1500px;
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar > .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.white {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.bold-white {
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.black-text {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    height: 60px;
+    width: 60px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+.links > a {
+    text-decoration: none;
+    font-size: 18px;
+    color: inherit;
+}
+
+.first > .container {
+    padding: 128px 16px;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+    background-color: gray;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-text {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.subtext {
+    margin-bottom: 32px;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 4px 32px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 0px solid black;
+}
+
+.white-border {
+    border-width: 2px;
+    border-color: white;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 16px;
+}
+
+.subheader {
+    text-align: center;
+    font-weight: bold;
+    margin: 32px;
+}
+
+.information {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 200px;
+    margin: 32px;
+}
+
+.tile-image {
+    height: 200px;
+    border: 2px solid blue;
+    border-radius: 20%;
+    margin-bottom: 16px;
+}
+
+.tile-description {
+    text-align: center;
+}
+
+.third {
+    background-color: #E5E7EB;
+}
+
+.quote-window {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 128px;
+}
+
+.quote {
+    font-style: italic;
+    margin-bottom: 8px;
+}
+
+.quote-from {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.blue-box {
+    margin: 64px 0px;
+    padding: 32px 128px;
+    width: 100%;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.action-title {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+footer a {
+    color: white;
+}
