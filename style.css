@@ -2,6 +2,7 @@
     display: flex;
     align-content: center;
     justify-content: center;
+    width: 100%;
 }
 
 .dark-blue {
@@ -18,9 +19,8 @@
 }
 
 .navbar {
-    position: fixed;
+    position: sticky;
     top: 0;
-    width: 100%;
 }
 
 .navbar > .container {
@@ -66,7 +66,6 @@
 }
 
 .first > .container {
-    padding: 0px 16px;
     padding-bottom: 64px;
 }
 
@@ -110,7 +109,7 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 64px 16px;
+    padding: 32px 0px;
 }
 
 .subheader {
